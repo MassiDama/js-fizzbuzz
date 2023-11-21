@@ -38,3 +38,14 @@ h1 {
     
 }
 
+.fizzbuzz {
+    background-color: hsl(345.53deg 85% 60.78%);
+}
+
+.buzz {
+    background-color: hsl(41.96deg 100% 70%);
+}
+
+.fizz {
+    background-color: hsl(164.41deg 91.07% 43.92%);
+}
