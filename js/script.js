@@ -3,6 +3,7 @@ const container = document.querySelector(".container");
 
 let square;
 
+
 // costruzione ciclo 
 for (let i = 1; i <= 100; i++) {
 
@@ -16,8 +17,11 @@ for (let i = 1; i <= 100; i++) {
         // andiamo a creare il div
         square =  `<div class="square"> ${"FizzBuzz"} </div>` ;
 
-        document.querySelector(".square").style.backgroundColor = "hsl(345.53deg 85% 60.78%)" ;
-        
+        let fizzBuzz = document.querySelector(".square");
+        fizzBuzz.classList.add("fizzbuzz");
+
+        fizzBuzz.style.backgroundColor = "red";
+
         // andiamo ad aggiungere il div al container 
         container.innerHTML += square;
 
@@ -56,3 +60,4 @@ for (let i = 1; i <= 100; i++) {
 
 
 // .style.backgroundColor = "hsl(345.53deg 85% 60.78%)" ;
+
