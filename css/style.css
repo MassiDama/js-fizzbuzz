@@ -28,7 +28,6 @@ h1 {
 
 .square {
     background-color: hsl(195.47deg 80.71% 38.63%);
-
     width: calc((100%/7) - 1% );
     height: 100px;
     margin-bottom: 20px;
@@ -38,3 +37,4 @@ h1 {
     font-size: 20px;
     
 }
+
